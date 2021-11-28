@@ -1,0 +1,81 @@
+{{#if this.edit}}
+  <th style="width:20px;">
+    {{@index}}
+  </th>
+  <th>
+    <select name="ubezpieczony">
+      <option value="tak">TAK</option>
+      <option value="nie">NIE</option>
+      <option value="brak danych">BRAK DANYCH</option>
+    </select>
+  </th>
+  <th>
+    <select name="benzyna">
+      <option value="tak">TAK</option>
+      <option value="nie">NIE</option>
+      <option value="brak danych">BRAK DANYCH</option>
+    </select>
+  </th>
+  <th>
+    <select name="uszkodzony">
+      <option value="tak">TAK</option>
+      <option value="nie">NIE</option>
+      <option value="brak danych">BRAK DANYCH</option>
+    </select>
+  </th>
+  <th>
+    <select name="naped4x4">
+      <option value="tak">TAK</option>
+      <option value="nie">NIE</option>
+      <option value="brak danych">BRAK DANYCH</option>
+    </select>
+  </th>
+  <th><button
+      class="up"
+      type="submit"
+      name="id"
+      value="{{_id}}"
+      formaction="/update"
+    >UPDATE</button></th>
+  <th><button
+      class="edit"
+      type="submit"
+      name="id"
+      value="{{_id}}"
+      formaction="/cancel"
+    >CANCEL</button></th>
+{{else}}
+  <th style="width:20px;">
+    {{@index}}
+  </th>
+  <th>
+    {{this.ubezpieczony}}
+  </th>
+  <th>
+    {{this.benzyna}}
+  </th>
+  <th>
+    {{this.uszkodzony}}
+  </th>
+  <th>
+    {{this.naped4x4}}
+  </th>
+  <th>
+    <button
+      class="del"
+      type="submit"
+      name="idd"
+      value="{{_id}}"
+      formaction="/delete"
+    >DELETE</button>
+  </th>
+  <th>
+    <button
+      class="edit"
+      type="submit"
+      name="id"
+      value="{{_id}}"
+      formaction="/edit"
+    >EDIT</button>
+  </th>
+{{/if}}

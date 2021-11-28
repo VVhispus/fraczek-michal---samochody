@@ -1,0 +1,70 @@
+h1 {
+  color: blue;
+}
+table {
+  width: 700px;
+}
+th {
+  font-weight: normal;
+  width: 100px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.form2 {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+}
+h3 {
+  color: rgb(122, 122, 122);
+  text-decoration: underline;
+}
+.formcont {
+  border: 1px solid black;
+  width: 150px;
+  margin: 1px;
+  font-size: 20px;
+  padding: 1px;
+  text-align: center;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 185px;
+  flex-wrap: wrap;
+}
+.check {
+  border: 1px solid black;
+  width: 25px;
+  display: flex;
+  margin: 1px;
+  align-items: center;
+  justify-content: center;
+}
+.del {
+  color: red;
+  font-size: 15px;
+  border: 2px solid red;
+  background-color: whitesmoke;
+}
+.del:hover {
+  background-color: rgb(202, 197, 197);
+}
+.edit {
+  color: royalblue;
+  font-size: 15px;
+  border: 2px solid royalblue;
+  background-color: whitesmoke;
+}
+.edit:hover {
+  background-color: rgb(202, 197, 197);
+}
+.up {
+  color: rgb(255, 95, 255);
+  font-size: 15px;
+  border: 2px solid rgb(255, 16, 255);
+  background-color: whitesmoke;
+}
+.up:hover {
+  background-color: rgb(202, 197, 197);
+}

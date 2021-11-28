@@ -1,0 +1,17 @@
+{
+  "name": "fraczek-michal-samochody",
+  "version": "1.0.0",
+  "description": "Fraczek Michal 3P grupa 1 - projekt samochody",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.5",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michal Fraczek",
+  "license": "ISC"
+}

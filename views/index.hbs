@@ -1,0 +1,58 @@
+<h1> Ćwiczenie - zapis/odczyt rekordów do bazy wysłanych z formularza</h1>
+<form action="/handleForm" method="GET" class="form1">
+  <h3>Dane pojazdu:</h3>
+  <div class="main">
+    <div class="formcont">
+      <label style="color:blue">Ubezpieczony:</label>
+    </div>
+    <div class="check">
+      <input type="checkbox" name="ubezpieczony" /><br />
+    </div>
+    <div class="formcont">
+      <label style="color:blue">Benzyna:</label>
+    </div>
+    <div class="check">
+      <input type="checkbox" name="benzyna" /><br />
+    </div>
+    <div class="formcont">
+      <label style="color:blue">Uszkodzony:</label>
+    </div>
+    <div class="check">
+      <input type="checkbox" name="uszkodzony" /><br />
+    </div>
+    <div class="formcont">
+      <label style="color:blue">Napęd 4x4:</label>
+    </div>
+    <div class="check">
+      <input type="checkbox" name="naped4x4" class="check" /><br />
+    </div>
+  </div>
+  <input
+    type="submit"
+    value="Dodaj do bazy"
+    style="width:120px; margin-left:32px; margin-top:5px;"
+  />
+</form>
+
+<table class="form2">
+  <tr style="color:blue">
+    <th style="width:20px;">
+    </th>
+    <th>
+      Ubezpieczony
+    </th>
+    <th>
+      Benzyna
+    </th>
+    <th>
+      Uszkodzony
+    </th>
+    <th>
+      Naped4x4
+    </th>
+    <th>
+    </th>
+    <th>
+    </th>
+  </tr>
+</table>
